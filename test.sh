@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mvn clean compile install
+
 var_sql=sqld_15                # Variable holding sql dockerfile name.
 var_spr=springd_15               # Variable holding spring-boot dockerfile name
 sql_name=sql_contd_15          # Variable holding the sql container name.
