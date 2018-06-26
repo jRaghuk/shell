@@ -21,7 +21,7 @@ do
   docker kill $container
 
 done
-#yes | docker system prune -a
+yes | docker system prune -a
 
 echo "----------------------------------------------------------------------------------------------------------------------------"
 docker ps
