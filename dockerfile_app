@@ -1,4 +1,4 @@
 FROM java:8
-COPY /target/pq-metrics-poc.war  pq-metrics-poc.war
+COPY /target/pq-metrics-poc.warS  pq-metrics-poc.warS
 RUN bash -c 'touch /pq-metrics-poc.war'
 ENTRYPOINT ["java","-jar","/pq-metrics-poc.war"]
